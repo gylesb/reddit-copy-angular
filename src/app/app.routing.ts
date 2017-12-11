@@ -8,6 +8,8 @@ import { NewComponent } from './new/new.component';
 import { RisingComponent } from './rising/rising.component';
 import { TopComponent } from './top/top.component';
 import { WikiComponent } from './wiki/wiki.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
+
 
 const appRoutes: Routes = [
   {
@@ -41,6 +43,10 @@ const appRoutes: Routes = [
   {
     path: 'top',
     component: TopComponent
+  },
+  {
+    path: 'posts/:id',
+    component: PostDetailComponent
   }
 ];
 

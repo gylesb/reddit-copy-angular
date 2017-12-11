@@ -13,6 +13,7 @@ import { TopComponent } from './top/top.component';
 import { GildedComponent } from './gilded/gilded.component';
 import { WikiComponent } from './wiki/wiki.component';
 import { routing } from './app.routing';
+import { PostDetailComponent } from './post-detail/post-detail.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { routing } from './app.routing';
     ControversialComponent,
     TopComponent,
     GildedComponent,
-    WikiComponent
+    WikiComponent,
+    PostDetailComponent
   ],
   imports: [
     BrowserModule,
