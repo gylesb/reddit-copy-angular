@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">Reddit Copy</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="hot">Hot</a></li>
+      <li><a routerLink="new">New</a></li>
+      <li><a routerLink="rising">Rising</a></li>
+      <li><a routerLink="controversial">Controversial</a></li>
+      <li><a routerLink="top">Top</a></li>
+      <li><a routerLink="gilded">Gilded</a></li>
+      <li><a routerLink="wiki">Wiki</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+</div>
