@@ -1,0 +1,13 @@
+<form>
+  Title:
+  <input type="text" #title><br>
+  Date:
+  <input type="text" #date><br>
+  Preview:
+  <input type="text" #preview><br>
+  Author:
+  <input type="text" #author><br>
+  Link:
+  <input type="text" #link><br>
+  <button (click) = "NewPosts(title.value, date.value, preview.value, author.value, link.value); title.value='';date.value='';preview.value='';author.value='';link.value='';">Add</button>
+</form>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Post } from './post.model';
+import { POSTS } from './mock-posts';
 
 @Component({
   selector: 'app-root',

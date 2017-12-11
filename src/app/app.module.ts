@@ -14,6 +14,7 @@ import { GildedComponent } from './gilded/gilded.component';
 import { WikiComponent } from './wiki/wiki.component';
 import { routing } from './app.routing';
 import { PostDetailComponent } from './post-detail/post-detail.component';
+import { NewPostComponent } from './newpost/newpost.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
     TopComponent,
     GildedComponent,
     WikiComponent,
-    PostDetailComponent
+    PostDetailComponent,
+    NewPostComponent
   ],
   imports: [
     BrowserModule,
